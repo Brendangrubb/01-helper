@@ -1,0 +1,25 @@
+body {
+  background-color: #0B1315;
+  color: #D9BFA1;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #0C895F;
+  font-size: 1.5em;
+  width: 4em;
+  height: 4em;
+  margin: 5px;
+  border-radius: 100%;
+}
+
+.data-btn {
+  background-color: #B9273F;
+  width: 5em;
+  height: 5em;
+  margin: 5px;
+  border-radius: 100%;
+}
