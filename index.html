@@ -8,39 +8,61 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
-    <div class="data">
-      <p>Total Points: <span id="total-points">301</span></p>
-      <p>Throws: <span id="throws">0</span></p>
-      <p>Round: <span id="rounds">1</span></p>
-    </div>
-    <div class="buttons">
-      <button id="double" type="submit" name="double">Double</button>
-      <button id="triple" type="submit" name="triple">Triple</button>
-      <button id="restart" type="submit" name="restart">Restart</button>
-      <br><br>
-      <button class="number" type="submit" value=20 name="twenty">20</button>
-      <button class="number" type="submit" value=19 name="nineteen">19</button>
-      <button class="number" type="submit" value=18 name="eighteen">18</button>
-      <button class="number" type="submit" value=17 name="seventeen">17</button>
-      <button class="number" type="submit" value=16 name="sixteen">16</button>
-      <button class="number" type="submit" value=15 name="fifteen">15</button>
-      <button class="number" type="submit" value=14 name="fourteen">14</button>
-      <button class="number" type="submit" value=13 name="thirteen">13</button>
-      <button class="number" type="submit" value=12 name="twelve">12</button>
-      <button class="number" type="submit" value=11 name="eleven">11</button>
-      <button class="number" type="submit" value=10 name="ten">10</button>
-      <button class="number" type="submit" value=9 name="nine">9</button>
-      <button class="number" type="submit" value=8 name="eight">8</button>
-      <button class="number" type="submit" value=7 name="seven">7</button>
-      <button class="number" type="submit" value=6 name="six">6</button>
-      <button class="number" type="submit" value=5 name="five">5</button>
-      <button class="number" type="submit" value=4 name="four">4</button>
-      <button class="number" type="submit" value=3 name="three">3</button>
-      <button class="number" type="submit" value=2 name="two">2</button>
-      <button class="number" type="submit" value=1 name="one">1</button>
+    <div class="container">
+      <div class="center">
+        <h3>301 Helper</h3>
+        <div class="center data">
+          <h2>Total Points: <span id="total-points">301</span></h2>
+          <h3>Throws: <span id="throws">0</span></h3>
+          <h3>Round: <span id="rounds">1</span></h3>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="center data-buttons">
+        <button class="btn data-btn" id="double" type="submit" name="double">Double</button>
+        <button class="btn data-btn" id="triple" type="submit" name="triple">Triple</button>
+        <button class="btn data-btn" id="restart" type="submit" name="restart">Restart</button>
+      </div>
+
+      <br>
+
+      <div class="center number-buttons">
+        <div class="row">
+          <button class="btn number" type="submit" value=20 name="twenty">20</button>
+          <button class="btn number" type="submit" value=19 name="nineteen">19</button>
+          <button class="btn number" type="submit" value=18 name="eighteen">18</button>
+          <button class="btn number" type="submit" value=17 name="seventeen">17</button>
+          <button class="btn number" type="submit" value=16 name="sixteen">16</button>
+        </div>
+        <div class="row">
+          <button class="btn number" type="submit" value=15 name="fifteen">15</button>
+          <button class="btn number" type="submit" value=14 name="fourteen">14</button>
+          <button class="btn number" type="submit" value=13 name="thirteen">13</button>
+          <button class="btn number" type="submit" value=12 name="twelve">12</button>
+          <button class="btn number" type="submit" value=11 name="eleven">11</button>
+        </div>
+        <div class="row">
+          <button class="btn number" type="submit" value=10 name="ten">10</button>
+          <button class="btn number" type="submit" value=9 name="nine">9</button>
+          <button class="btn number" type="submit" value=8 name="eight">8</button>
+          <button class="btn number" type="submit" value=7 name="seven">7</button>
+          <button class="btn number" type="submit" value=6 name="six">6</button>
+        </div>
+        <div class="row">
+          <button class="btn number" type="submit" value=5 name="five">5</button>
+          <button class="btn number" type="submit" value=4 name="four">4</button>
+          <button class="btn number" type="submit" value=3 name="three">3</button>
+          <button class="btn number" type="submit" value=2 name="two">2</button>
+          <button class="btn number" type="submit" value=1 name="one">1</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
